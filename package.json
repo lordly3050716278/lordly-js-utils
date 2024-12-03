@@ -1,0 +1,33 @@
+{
+  "name": "lordly-js-utils",
+  "version": "1.0.0",
+  "description": "常用的js工具库，分别适配Common JS和ES Module版本",
+  "main": "src/cjs/index.js",
+  "module": "src/esm/index.js",
+  "exports": {
+    "import": "./src/esm/index.js",
+    "require": "./src/cjs/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordly3050716278/lordly-js-utils.git"
+  },
+  "keywords": [
+    "lordly",
+    "js",
+    "utils"
+  ],
+  "author": "lordly <lordly0426@163.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lordly3050716278/lordly-js-utils/issues"
+  },
+  "homepage": "https://github.com/lordly3050716278/lordly-js-utils#readme",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "uuid": "^11.0.3"
+  }
+}
